@@ -8,7 +8,10 @@
         <option value="contact">Contact</option>
         <option value="companie">Company</option>
       </select>
-      <button @click="createEntity" :disabled="state.creatingEntity">
+      <button
+        @click="createEntity"
+        :disabled="state.selectedEntityType == 'not choosed'"
+      >
         Create
       </button>
     </div>
