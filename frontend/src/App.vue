@@ -81,15 +81,10 @@ function deleteEntity(index: number) {
 
 <style>
 .container {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 50vw;
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #1d1d1d;
-  color: #fff;
 }
 
 .form {
